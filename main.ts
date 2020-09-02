@@ -1,4 +1,4 @@
-let strip = neopixel.create(DigitalPin.P2, 24, NeoPixelMode.RGB)
+let strip = neopixel.create(DigitalPin.P2, 20, NeoPixelMode.RGB)
 strip.setBrightness(40)
 strip.showRainbow(1, 360)
 basic.forever(function () {
